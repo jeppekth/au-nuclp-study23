@@ -12,6 +12,9 @@ host maching you can use the following Dockerfile:
 ```Dockerfile
 FROM docker.io/openmc/openmc:latest
 RUN pip install --upgrade pip ipython ipykernel
+RUN wget https://anl.box.com/shared/static/9igk353zpy8fn9ttvtrqgzvw1vtejoz6.xz
+RUN tar -xf 9igk353zpy8fn9ttvtrqgzvw1vtejoz6.xz
+ENV OPENMC_CROSS_SECTIONS=/endfb-vii.1-hdf5/cross_sections.xml
 ```
 
 This will install the ipkernel in the Dockerimage. You can the setup jupyter
