@@ -1,0 +1,3 @@
+[submodule "ezsolti"]
+	path = ezsolti
+	url = git@github.com:ezsolti/RFP.git
