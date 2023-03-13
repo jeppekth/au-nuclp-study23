@@ -1,3 +1,6 @@
 [submodule "ezsolti"]
 	path = ezsolti
 	url = git@github.com:ezsolti/RFP.git
+[submodule "neutron"]
+	path = neutron
+	url = git@github.com:ChristofferRS/neutron.git
